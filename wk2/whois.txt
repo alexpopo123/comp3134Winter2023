@@ -1,0 +1,67 @@
+Domain:facebook.com
+Registrar:RegistrarSafe, LLC
+Registered On:1997-03-29
+Expires On:2031-03-30
+Updated On:2022-01-26
+
+Domain:baidu.com
+Registrar:MarkMonitor Inc.
+Registered On:1999-10-11
+Expires On:2026-10-11
+Updated On:2022-09-01
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:ns1.baidu.com
+ns2.baidu.com
+ns3.baidu.com
+ns4.baidu.com
+ns7.baidu.com
+
+
+Domain:qq.com
+Registrar:MarkMonitor Inc.
+Registered On:1995-05-04
+Expires On:2030-07-27
+Updated On:2022-09-21
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:ns1.qq.com
+ns2.qq.com
+ns3.qq.com
+ns4.qq.com
+
+
+Domain:ttc.ca
+Registrar:Rebel.ca Corp.
+Registered On:2000-10-04
+Expires On:2023-02-18
+Updated On:2022-08-31
+Status:clientTransferProhibited
+clientUpdateProhibited
+Name Servers:pdns83.ultradns.biz
+pdns83.ultradns.com
+pdns83.ultradns.net
+pdns83.ultradns.org
+
+
+Domain:uof.ca
+Registrar:Go Daddy Domains Canada, Inc
+Registered On:2004-04-23
+Expires On:2023-04-23
+Updated On:2021-09-26
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+Name Servers:ns67.domaincontrol.com
+ns68.domaincontrol.com
+
+
+

@@ -1,0 +1,20 @@
+1)www.fadebook.com 
+IP address: 157.240.22.35         Location: USA, Ireland
+
+2)www.baidu.com    
+IP address:180.76.76.76           Location:China
+
+3)www.qq.com
+IP address: 112.80. 129.88        Location:China
+
+
+4)www.ttc.ca    
+IP address:198.168.255.255         Location:Canada
+
+5)www.uof.ca
+IP address: 128.100.175.0 to 128.100.175.255
+128.100.175.0 - 128.100.175.255     Location:China
+
+
+
+

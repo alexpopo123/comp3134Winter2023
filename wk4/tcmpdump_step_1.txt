@@ -1,0 +1,44 @@
+root@comp3134Winter2023:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:36:40.932247 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 114976729:114976837, ack 71351320, win 501, options [nop,nop,TS val 4152843225 ecr 624188858], length 108
+20:36:40.932405 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 4152843225 ecr 624188858], length 36
+20:36:40.932461 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 4152843225 ecr 624188858], length 108
+20:36:40.932502 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 4152843225 ecr 624188858], length 36
+20:36:40.933989 IP comp3134Winter2023.44396 > 67.207.67.3.domain: 19707+ [1au] PTR? 226.84.96.198.in-addr.arpa. (55)
+20:36:40.934073 IP comp3134Winter2023.59805 > 67.207.67.3.domain: 35106+ [1au] PTR? 226.84.96.198.in-addr.arpa. (55)
+20:36:40.934145 IP comp3134Winter2023.38478 > 67.207.67.3.domain: 43030+ [1au] PTR? 226.84.96.198.in-addr.arpa. (55)
+20:36:40.935984 IP 198.96.84.226.64002 > comp3134Winter2023.ssh: Flags [.], ack 108, win 2046, options [nop,nop,TS val 624188879 ecr 4152843225], length 0
+20:36:40.936032 IP 198.96.84.226.64002 > comp3134Winter2023.ssh: Flags [.], ack 252, win 2044, options [nop,nop,TS val 624188879 ecr 4152843225], length 0
+20:36:40.936032 IP 198.96.84.226.64002 > comp3134Winter2023.ssh: Flags [.], ack 288, win 2047, options [nop,nop,TS val 624188879 ecr 4152843225], length 0
+20:36:40.938024 IP 67.207.67.3.domain > comp3134Winter2023.38478: 43030 NXDomain 0/1/1 (120)
+20:36:40.938063 IP 67.207.67.3.domain > comp3134Winter2023.59805: 35106 NXDomain 0/1/1 (120)
+20:36:40.938200 IP comp3134Winter2023.38478 > 67.207.67.3.domain: 43030+ PTR? 226.84.96.198.in-addr.arpa. (44)
+20:36:40.938353 IP comp3134Winter2023.59805 > 67.207.67.3.domain: 35106+ PTR? 226.84.96.198.in-addr.arpa. (44)
+20:36:40.939381 IP 67.207.67.3.domain > comp3134Winter2023.44396: 19707 NXDomain 0/1/1 (120)
+20:36:40.939381 IP 67.207.67.3.domain > comp3134Winter2023.38478: 43030 NXDomain 0/1/0 (109)
+20:36:40.939597 IP comp3134Winter2023.44396 > 67.207.67.3.domain: 19707+ PTR? 226.84.96.198.in-addr.arpa. (44)
+20:36:40.940236 IP 67.207.67.3.domain > comp3134Winter2023.44396: 19707 NXDomain 0/1/0 (109)
+20:36:40.941528 IP 67.207.67.3.domain > comp3134Winter2023.59805: 35106 NXDomain 0/1/0 (109)
+20:36:40.942409 IP comp3134Winter2023.49545 > 67.207.67.3.domain: 25597+ [1au] PTR? 46.152.182.147.in-addr.arpa. (56)
+20:36:40.942485 IP comp3134Winter2023.36422 > 67.207.67.3.domain: 52198+ [1au] PTR? 46.152.182.147.in-addr.arpa. (56)
+20:36:40.942554 IP comp3134Winter2023.56488 > 67.207.67.3.domain: 34404+ [1au] PTR? 46.152.182.147.in-addr.arpa. (56)
+20:36:40.959758 IP 67.207.67.3.domain > comp3134Winter2023.56488: 34404 NXDomain 0/1/1 (123)
+20:36:40.959809 IP 67.207.67.3.domain > comp3134Winter2023.36422: 52198 NXDomain 0/1/1 (123)
+20:36:40.959940 IP comp3134Winter2023.56488 > 67.207.67.3.domain: 34404+ PTR? 46.152.182.147.in-addr.arpa. (45)
+20:36:40.959998 IP comp3134Winter2023.36422 > 67.207.67.3.domain: 52198+ PTR? 46.152.182.147.in-addr.arpa. (45)
+20:36:41.006563 IP 67.207.67.3.domain > comp3134Winter2023.56488: 34404 NXDomain 0/1/0 (112)
+20:36:41.006563 IP 67.207.67.3.domain > comp3134Winter2023.49545: 25597 NXDomain 0/1/1 (123)
+20:36:41.006927 IP comp3134Winter2023.49545 > 67.207.67.3.domain: 25597+ PTR? 46.152.182.147.in-addr.arpa. (45)
+20:36:41.007278 IP 67.207.67.3.domain > comp3134Winter2023.49545: 25597 NXDomain 0/1/0 (112)
+20:36:41.029082 IP 67.207.67.3.domain > comp3134Winter2023.36422: 52198 NXDomain 0/1/0 (112)
+20:36:41.029838 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 288:1020, ack 1, win 501, options [nop,nop,TS val 4152843323 ecr 624188879], length 732
+20:36:41.030104 IP comp3134Winter2023.50383 > 67.207.67.3.domain: 54831+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+20:36:41.030155 IP comp3134Winter2023.39658 > 67.207.67.3.domain: 4886+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+20:36:41.030196 IP comp3134Winter2023.34553 > 67.207.67.3.domain: 54589+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+20:36:41.030546 IP 67.207.67.3.domain > comp3134Winter2023.50383: 54831 NXDomain 0/1/1 (120)
+20:36:41.031938 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 1020:3596, ack 1, win 501, options [nop,nop,TS val 4152843325 ecr 624188879], length 2576
+20:36:41.031959 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 3596:4648, ack 1, win 501, options [nop,nop,TS val 4152843325 ecr 624188879], length 1052
+20:36:41.032047 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 4648:5028, ack 1, win 501, options [nop,nop,TS val 4152843325 ecr 624188879], length 380
+20:36:41.032123 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 5028:5240, ack 1, win 501, options [nop,nop,TS val 4152843325 ecr 624188879], length 212
+20:36:41.032185 IP comp3134Winter2023.ssh > 198.96.84.226.64002: Flags [P.], seq 5240:5452, ack 1, win 501, options [nop,nop,TS val 4152843325 ecr 624188879], length 212

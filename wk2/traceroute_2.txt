@@ -1,0 +1,18 @@
+Asus@DESKTOP-A3A4K9J MINGW64 ~
+$ tracert facebook.ca
+
+Tracing route to facebook.ca [31.13.80.8]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     2 ms  10.0.64.1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9    20 ms    23 ms    41 ms  edge-star-shv-01-yyz1.facebook.com [31.13.80.8]
+
+Trace complete.
+

@@ -1,0 +1,439 @@
+root@comp3134Winter2023:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+21:56:44.383460 IP comp3134Winter2023.ssh > 104.171.50.84.56878: Flags [P.], seq 3293910759:3293910803, ack 2266675328, win 501, options [nop,nop,TS val 3459704431 ecr 3951940579], length 44
+21:56:44.383518 IP comp3134Winter2023.ssh > 104.171.50.84.56878: Flags [P.], seq 44:152, ack 1, win 501, options [nop,nop,TS val 3459704431 ecr 3951940579], length 108
+21:56:44.383590 IP comp3134Winter2023.ssh > 104.171.50.84.56878: Flags [P.], seq 152:188, ack 1, win 501, options [nop,nop,TS val 3459704431 ecr 3951940579], length 36
+21:56:44.427124 IP 104.171.50.84.56878 > comp3134Winter2023.ssh: Flags [.], ack 188, win 2044, options [nop,nop,TS val 3951940628 ecr 3459704431], length 0
+21:56:45.356825 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59832 > comp3134Winter2023.4578: Flags [S], seq 2933672901, win 29200, options [mss 1460,sackOK,TS val 3282901473 ecr 0,nop,wscale 7], length 0
+21:56:46.358833 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59832 > comp3134Winter2023.4578: Flags [S], seq 2933672901, win 29200, options [mss 1460,sackOK,TS val 3282902476 ecr 0,nop,wscale 7], length 0
+21:56:48.133331 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:56:48.133331 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+21:56:48.318424 IP zg-1220f-16.stretchoid.com.53774 > comp3134Winter2023.26: Flags [S], seq 2283467388, win 65535, length 0
+21:56:49.357045 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.60572 > comp3134Winter2023.4578: Flags [S], seq 4034541940, win 29200, options [mss 1460,sackOK,TS val 3282905475 ecr 0,nop,wscale 7], length 0
+21:56:50.357406 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.60572 > comp3134Winter2023.4578: Flags [S], seq 4034541940, win 29200, options [mss 1460,sackOK,TS val 3282906476 ecr 0,nop,wscale 7], length 0
+21:56:51.732278 IP ip217.ip-51-89-255.eu.51832 > comp3134Winter2023.6666: Flags [S], seq 3670538664, win 1024, length 0
+21:56:53.360833 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33094 > comp3134Winter2023.4578: Flags [S], seq 2763149510, win 29200, options [mss 1460,sackOK,TS val 3282909478 ecr 0,nop,wscale 7], length 0
+21:56:53.952928 IP scanner-14.ch1.censys-scanner.com.40688 > comp3134Winter2023.12237: Flags [S], seq 4047126254, win 1024, options [mss 1460], length 0
+21:56:54.110432 IP ip217.ip-51-89-255.eu.51832 > comp3134Winter2023.8009: Flags [S], seq 2609120064, win 1024, length 0
+21:56:54.362890 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33094 > comp3134Winter2023.4578: Flags [S], seq 2763149510, win 29200, options [mss 1460,sackOK,TS val 3282910480 ecr 0,nop,wscale 7], length 0
+21:56:57.362868 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33930 > comp3134Winter2023.4578: Flags [S], seq 3660431093, win 29200, options [mss 1460,sackOK,TS val 3282913479 ecr 0,nop,wscale 7], length 0
+21:56:58.362975 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33930 > comp3134Winter2023.4578: Flags [S], seq 3660431093, win 29200, options [mss 1460,sackOK,TS val 3282914480 ecr 0,nop,wscale 7], length 0
+21:56:58.860031 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:57:00.139415 IP ns3223911.ip-162-19-170.eu.25565 > comp3134Winter2023.22520: Flags [S.], seq 1270461683, ack 3238461441, win 17520, length 0
+21:57:00.589491 IP 185.156.73.54.54297 > comp3134Winter2023.9147: Flags [S], seq 255470239, win 1024, length 0
+21:57:01.366783 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34732 > comp3134Winter2023.4578: Flags [S], seq 750429469, win 29200, options [mss 1460,sackOK,TS val 3282917481 ecr 0,nop,wscale 7], length 0
+21:57:02.369047 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34732 > comp3134Winter2023.4578: Flags [S], seq 750429469, win 29200, options [mss 1460,sackOK,TS val 3282918484 ecr 0,nop,wscale 7], length 0
+21:57:05.369079 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.35552 > comp3134Winter2023.4578: Flags [S], seq 2855904788, win 29200, options [mss 1460,sackOK,TS val 3282921483 ecr 0,nop,wscale 7], length 0
+21:57:06.369350 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.35552 > comp3134Winter2023.4578: Flags [S], seq 2855904788, win 29200, options [mss 1460,sackOK,TS val 3282922484 ecr 0,nop,wscale 7], length 0
+21:57:09.371026 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.36314 > comp3134Winter2023.4578: Flags [S], seq 3251584693, win 29200, options [mss 1460,sackOK,TS val 3282925487 ecr 0,nop,wscale 7], length 0
+21:57:09.870625 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:57:10.372124 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.36314 > comp3134Winter2023.4578: Flags [S], seq 3251584693, win 29200, options [mss 1460,sackOK,TS val 3282926488 ecr 0,nop,wscale 7], length 0
+21:57:13.372645 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37150 > comp3134Winter2023.4578: Flags [S], seq 473270150, win 29200, options [mss 1460,sackOK,TS val 3282929488 ecr 0,nop,wscale 7], length 0
+21:57:14.371932 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37150 > comp3134Winter2023.4578: Flags [S], seq 473270150, win 29200, options [mss 1460,sackOK,TS val 3282930490 ecr 0,nop,wscale 7], length 0
+21:57:17.374068 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37908 > comp3134Winter2023.4578: Flags [S], seq 1445678811, win 29200, options [mss 1460,sackOK,TS val 3282933490 ecr 0,nop,wscale 7], length 0
+21:57:18.374941 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37908 > comp3134Winter2023.4578: Flags [S], seq 1445678811, win 29200, options [mss 1460,sackOK,TS val 3282934492 ecr 0,nop,wscale 7], length 0
+21:57:20.804994 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:57:20.804995 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+21:57:21.373938 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.38678 > comp3134Winter2023.4578: Flags [S], seq 3453870958, win 29200, options [mss 1460,sackOK,TS val 3282937492 ecr 0,nop,wscale 7], length 0
+21:57:22.375395 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.38678 > comp3134Winter2023.4578: Flags [S], seq 3453870958, win 29200, options [mss 1460,sackOK,TS val 3282938494 ecr 0,nop,wscale 7], length 0
+21:57:25.381848 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.39428 > comp3134Winter2023.4578: Flags [S], seq 25779750, win 29200, options [mss 1460,sackOK,TS val 3282941495 ecr 0,nop,wscale 7], length 0
+21:57:26.382779 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.39428 > comp3134Winter2023.4578: Flags [S], seq 25779750, win 29200, options [mss 1460,sackOK,TS val 3282942496 ecr 0,nop,wscale 7], length 0
+21:57:29.378125 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40260 > comp3134Winter2023.4578: Flags [S], seq 1143657450, win 29200, options [mss 1460,sackOK,TS val 3282945496 ecr 0,nop,wscale 7], length 0
+21:57:30.162571 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [S], seq 1848634331, win 29200, options [mss 1424,sackOK,TS val 704930831 ecr 0,nop,wscale 7], length 0
+21:57:30.162651 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [S.], seq 1047210492, ack 1848634332, win 65160, options [mss 1460,sackOK,TS val 2009246189 ecr 704930831,nop,wscale 7], length 0
+21:57:30.218553 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 704930887 ecr 2009246189], length 0
+21:57:30.219405 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 1:23, ack 1, win 229, options [nop,nop,TS val 704930888 ecr 2009246189], length 22
+21:57:30.219446 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 23, win 509, options [nop,nop,TS val 2009246246 ecr 704930888], length 0
+21:57:30.230745 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [P.], seq 1:42, ack 23, win 509, options [nop,nop,TS val 2009246257 ecr 704930888], length 41
+21:57:30.285973 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 704930954 ecr 2009246257], length 0
+21:57:30.286045 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [P.], seq 42:1098, ack 23, win 509, options [nop,nop,TS val 2009246313 ecr 704930954], length 1056
+21:57:30.292171 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 23:999, ack 42, win 229, options [nop,nop,TS val 704930961 ecr 2009246257], length 976
+21:57:30.292245 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 999, win 502, options [nop,nop,TS val 2009246319 ecr 704930961], length 0
+21:57:30.347442 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 999:1047, ack 1098, win 245, options [nop,nop,TS val 704931016 ecr 2009246313], length 48
+21:57:30.347510 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2009246374 ecr 704931016], length 0
+21:57:30.356299 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [P.], seq 1098:1534, ack 1047, win 502, options [nop,nop,TS val 2009246383 ecr 704931016], length 436
+21:57:30.379595 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40260 > comp3134Winter2023.4578: Flags [S], seq 1143657450, win 29200, options [mss 1460,sackOK,TS val 3282946498 ecr 0,nop,wscale 7], length 0
+21:57:30.413572 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 1047:1063, ack 1534, win 262, options [nop,nop,TS val 704931082 ecr 2009246383], length 16
+21:57:30.413660 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2009246440 ecr 704931082], length 0
+21:57:30.468888 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 1063:1115, ack 1534, win 262, options [nop,nop,TS val 704931137 ecr 2009246440], length 52
+21:57:30.468936 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2009246496 ecr 704931137], length 0
+21:57:30.469059 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [P.], seq 1534:1586, ack 1115, win 502, options [nop,nop,TS val 2009246496 ecr 704931137], length 52
+21:57:30.525788 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 1115:1199, ack 1586, win 262, options [nop,nop,TS val 704931194 ecr 2009246496], length 84
+21:57:30.525853 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2009246553 ecr 704931194], length 0
+21:57:31.535264 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:57:33.294831 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2009249322 ecr 704931194], length 52
+21:57:33.351710 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [P.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 704934020 ecr 2009249322], length 52
+21:57:33.351711 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [F.], seq 1251, ack 1638, win 262, options [nop,nop,TS val 704934020 ecr 2009249322], length 0
+21:57:33.351767 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [.], ack 1251, win 502, options [nop,nop,TS val 2009249378 ecr 704934020], length 0
+21:57:33.353311 IP comp3134Winter2023.ssh > 43.153.12.31.60106: Flags [F.], seq 1638, ack 1252, win 502, options [nop,nop,TS val 2009249380 ecr 704934020], length 0
+21:57:33.383806 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41028 > comp3134Winter2023.4578: Flags [S], seq 2962371222, win 29200, options [mss 1460,sackOK,TS val 3282949498 ecr 0,nop,wscale 7], length 0
+21:57:33.408539 IP 43.153.12.31.60106 > comp3134Winter2023.ssh: Flags [.], ack 1639, win 262, options [nop,nop,TS val 704934077 ecr 2009249380], length 0
+21:57:34.384981 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41028 > comp3134Winter2023.4578: Flags [S], seq 2962371222, win 29200, options [mss 1460,sackOK,TS val 3282950500 ecr 0,nop,wscale 7], length 0
+21:57:37.387885 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41776 > comp3134Winter2023.4578: Flags [S], seq 2474767530, win 29200, options [mss 1460,sackOK,TS val 3282953500 ecr 0,nop,wscale 7], length 0
+21:57:37.726187 IP scanner-11.ch1.censys-scanner.com.47597 > comp3134Winter2023.3165: Flags [S], seq 1317839354, win 1024, options [mss 1460], length 0
+21:57:38.384920 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41776 > comp3134Winter2023.4578: Flags [S], seq 2474767530, win 29200, options [mss 1460,sackOK,TS val 3282954502 ecr 0,nop,wscale 7], length 0
+21:57:41.388550 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.42526 > comp3134Winter2023.4578: Flags [S], seq 193440564, win 29200, options [mss 1460,sackOK,TS val 3282957503 ecr 0,nop,wscale 7], length 0
+21:57:42.388991 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.42526 > comp3134Winter2023.4578: Flags [S], seq 193440564, win 29200, options [mss 1460,sackOK,TS val 3282958504 ecr 0,nop,wscale 7], length 0
+21:57:42.506936 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:57:45.354732 IP hat.census.shodan.io.29011 > comp3134Winter2023.49152: Flags [S], seq 682657594, win 41175, options [mss 1460], length 0
+21:57:45.385837 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43360 > comp3134Winter2023.4578: Flags [S], seq 1295001367, win 29200, options [mss 1460,sackOK,TS val 3282961504 ecr 0,nop,wscale 7], length 0
+21:57:46.387379 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43360 > comp3134Winter2023.4578: Flags [S], seq 1295001367, win 29200, options [mss 1460,sackOK,TS val 3282962506 ecr 0,nop,wscale 7], length 0
+21:57:49.391269 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44122 > comp3134Winter2023.4578: Flags [S], seq 1640316827, win 29200, options [mss 1460,sackOK,TS val 3282965506 ecr 0,nop,wscale 7], length 0
+21:57:49.407982 IP 49.88.112.118.37039 > comp3134Winter2023.ssh: Flags [S], seq 711930267, win 29200, options [mss 1460,sackOK,TS val 16347329 ecr 0,nop,wscale 7], length 0
+21:57:49.408056 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [S.], seq 2681967331, ack 711930268, win 65160, options [mss 1460,sackOK,TS val 148357443 ecr 16347329,nop,wscale 7], length 0
+21:57:49.624959 IP 49.88.112.118.37039 > comp3134Winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 16347384 ecr 148357443], length 0
+21:57:49.625077 IP 49.88.112.118.37039 > comp3134Winter2023.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 16347384 ecr 148357443], length 15
+21:57:49.625099 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [.], ack 16, win 509, options [nop,nop,TS val 148357660 ecr 16347384], length 0
+21:57:49.656336 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:42, ack 16, win 509, options [nop,nop,TS val 148357691 ecr 16347384], length 41
+21:57:50.247110 IP recyber.net.53562 > comp3134Winter2023.41153: Flags [S], seq 1753660602, win 1024, length 0
+21:57:50.301898 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 42:1098, ack 16, win 509, options [nop,nop,TS val 148358337 ecr 16347384], length 1056
+21:57:50.393083 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44122 > comp3134Winter2023.4578: Flags [S], seq 1640316827, win 29200, options [mss 1460,sackOK,TS val 3282966508 ecr 0,nop,wscale 7], length 0
+21:57:50.973893 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148359009 ecr 16347384], length 1097
+21:57:52.285890 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148360321 ecr 16347384], length 1097
+21:57:53.392991 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44876 > comp3134Winter2023.4578: Flags [S], seq 1779317580, win 29200, options [mss 1460,sackOK,TS val 3282969507 ecr 0,nop,wscale 7], length 0
+21:57:53.481768 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:57:53.481768 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+21:57:54.392901 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44876 > comp3134Winter2023.4578: Flags [S], seq 1779317580, win 29200, options [mss 1460,sackOK,TS val 3282970508 ecr 0,nop,wscale 7], length 0
+21:57:54.909929 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148362945 ecr 16347384], length 1097
+21:57:57.394943 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.45702 > comp3134Winter2023.4578: Flags [S], seq 152071700, win 29200, options [mss 1460,sackOK,TS val 3282973509 ecr 0,nop,wscale 7], length 0
+21:57:58.279908 IP recyber.net.53562 > comp3134Winter2023.44166: Flags [S], seq 345066261, win 1024, length 0
+21:57:58.396930 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.45702 > comp3134Winter2023.4578: Flags [S], seq 152071700, win 29200, options [mss 1460,sackOK,TS val 3282974512 ecr 0,nop,wscale 7], length 0
+21:58:00.285921 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148368321 ecr 16347384], length 1097
+21:58:01.392844 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46498 > comp3134Winter2023.4578: Flags [S], seq 13478916, win 29200, options [mss 1460,sackOK,TS val 3282977511 ecr 0,nop,wscale 7], length 0
+21:58:02.393216 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46498 > comp3134Winter2023.4578: Flags [S], seq 13478916, win 29200, options [mss 1460,sackOK,TS val 3282978512 ecr 0,nop,wscale 7], length 0
+21:58:03.461729 IP prommund.com.55413 > comp3134Winter2023.telnet: Flags [S], seq 658026857, win 65535, length 0
+21:58:04.237259 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:58:05.396882 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47354 > comp3134Winter2023.4578: Flags [S], seq 4006605530, win 29200, options [mss 1460,sackOK,TS val 3282981513 ecr 0,nop,wscale 7], length 0
+21:58:06.397126 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47354 > comp3134Winter2023.4578: Flags [S], seq 4006605530, win 29200, options [mss 1460,sackOK,TS val 3282982516 ecr 0,nop,wscale 7], length 0
+21:58:09.401566 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48090 > comp3134Winter2023.4578: Flags [S], seq 413669543, win 29200, options [mss 1460,sackOK,TS val 3282985516 ecr 0,nop,wscale 7], length 0
+21:58:10.402954 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48090 > comp3134Winter2023.4578: Flags [S], seq 413669543, win 29200, options [mss 1460,sackOK,TS val 3282986518 ecr 0,nop,wscale 7], length 0
+21:58:10.781917 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148378817 ecr 16347384], length 1097
+21:58:13.401710 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48952 > comp3134Winter2023.4578: Flags [S], seq 4268922609, win 29200, options [mss 1460,sackOK,TS val 3282989518 ecr 0,nop,wscale 7], length 0
+21:58:14.402769 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48952 > comp3134Winter2023.4578: Flags [S], seq 4268922609, win 29200, options [mss 1460,sackOK,TS val 3282990520 ecr 0,nop,wscale 7], length 0
+21:58:14.526093 IP 61.177.173.45.9090 > comp3134Winter2023.ssh: Flags [S], seq 30000, win 65535, length 0
+21:58:14.526167 IP comp3134Winter2023.ssh > 61.177.173.45.9090: Flags [S.], seq 1973084022, ack 30001, win 64240, options [mss 1460], length 0
+21:58:14.741873 IP 61.177.173.45.9090 > comp3134Winter2023.ssh: Flags [R], seq 30001, win 0, length 0
+21:58:15.264939 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:58:17.406070 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49726 > comp3134Winter2023.4578: Flags [S], seq 1877324562, win 29200, options [mss 1460,sackOK,TS val 3282993520 ecr 0,nop,wscale 7], length 0
+21:58:18.407365 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49726 > comp3134Winter2023.4578: Flags [S], seq 1877324562, win 29200, options [mss 1460,sackOK,TS val 3282994522 ecr 0,nop,wscale 7], length 0
+21:58:19.741889 ARP, Request who-has _gateway tell comp3134Winter2023, length 28
+21:58:19.743443 ARP, Reply _gateway is-at fe:00:00:00:01:01 (oui Unknown), length 46
+21:58:21.405447 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50482 > comp3134Winter2023.4578: Flags [S], seq 218910598, win 29200, options [mss 1460,sackOK,TS val 3282997522 ecr 0,nop,wscale 7], length 0
+21:58:22.406705 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50482 > comp3134Winter2023.4578: Flags [S], seq 218910598, win 29200, options [mss 1460,sackOK,TS val 3282998524 ecr 0,nop,wscale 7], length 0
+21:58:25.406257 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.51228 > comp3134Winter2023.4578: Flags [S], seq 1806372631, win 29200, options [mss 1460,sackOK,TS val 3283001524 ecr 0,nop,wscale 7], length 0
+21:58:26.234967 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:58:26.234967 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+21:58:26.407168 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.51228 > comp3134Winter2023.4578: Flags [S], seq 1806372631, win 29200, options [mss 1460,sackOK,TS val 3283002526 ecr 0,nop,wscale 7], length 0
+21:58:29.411851 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.52086 > comp3134Winter2023.4578: Flags [S], seq 1630724213, win 29200, options [mss 1460,sackOK,TS val 3283005526 ecr 0,nop,wscale 7], length 0
+21:58:30.410598 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.52086 > comp3134Winter2023.4578: Flags [S], seq 1630724213, win 29200, options [mss 1460,sackOK,TS val 3283006528 ecr 0,nop,wscale 7], length 0
+21:58:33.053898 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148401089 ecr 16347384], length 1097
+21:58:33.408706 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.52838 > comp3134Winter2023.4578: Flags [S], seq 345607340, win 29200, options [mss 1460,sackOK,TS val 3283009527 ecr 0,nop,wscale 7], length 0
+21:58:34.409187 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.52838 > comp3134Winter2023.4578: Flags [S], seq 345607340, win 29200, options [mss 1460,sackOK,TS val 3283010528 ecr 0,nop,wscale 7], length 0
+21:58:36.964857 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:58:37.413766 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.53598 > comp3134Winter2023.4578: Flags [S], seq 2478474710, win 29200, options [mss 1460,sackOK,TS val 3283013528 ecr 0,nop,wscale 7], length 0
+21:58:38.414952 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.53598 > comp3134Winter2023.4578: Flags [S], seq 2478474710, win 29200, options [mss 1460,sackOK,TS val 3283014530 ecr 0,nop,wscale 7], length 0
+21:58:41.416057 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.54330 > comp3134Winter2023.4578: Flags [S], seq 1378255647, win 29200, options [mss 1460,sackOK,TS val 3283017530 ecr 0,nop,wscale 7], length 0
+21:58:42.417211 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.54330 > comp3134Winter2023.4578: Flags [S], seq 1378255647, win 29200, options [mss 1460,sackOK,TS val 3283018532 ecr 0,nop,wscale 7], length 0
+21:58:45.418085 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.55182 > comp3134Winter2023.4578: Flags [S], seq 2897936780, win 29200, options [mss 1460,sackOK,TS val 3283021532 ecr 0,nop,wscale 7], length 0
+21:58:46.420416 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.55182 > comp3134Winter2023.4578: Flags [S], seq 2897936780, win 29200, options [mss 1460,sackOK,TS val 3283022534 ecr 0,nop,wscale 7], length 0
+21:58:47.971413 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:58:49.416493 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.55946 > comp3134Winter2023.4578: Flags [S], seq 545987693, win 29200, options [mss 1460,sackOK,TS val 3283025534 ecr 0,nop,wscale 7], length 0
+21:58:50.417780 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.55946 > comp3134Winter2023.4578: Flags [S], seq 545987693, win 29200, options [mss 1460,sackOK,TS val 3283026536 ecr 0,nop,wscale 7], length 0
+21:58:53.418297 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.56678 > comp3134Winter2023.4578: Flags [S], seq 3325956201, win 29200, options [mss 1460,sackOK,TS val 3283029537 ecr 0,nop,wscale 7], length 0
+21:58:54.296144 IP 220.78.2.130.33010 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 37602, length 0
+21:58:54.421211 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.56678 > comp3134Winter2023.4578: Flags [S], seq 3325956201, win 29200, options [mss 1460,sackOK,TS val 3283030540 ecr 0,nop,wscale 7], length 0
+21:58:55.593109 IP recyber.net.53562 > comp3134Winter2023.43063: Flags [S], seq 1256855926, win 1024, length 0
+21:58:57.420474 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.57510 > comp3134Winter2023.4578: Flags [S], seq 3576537782, win 29200, options [mss 1460,sackOK,TS val 3283033539 ecr 0,nop,wscale 7], length 0
+21:58:58.421321 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.57510 > comp3134Winter2023.4578: Flags [S], seq 3576537782, win 29200, options [mss 1460,sackOK,TS val 3283034540 ecr 0,nop,wscale 7], length 0
+21:58:58.906327 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:58:58.906391 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+21:59:00.257635 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [S], seq 716296190, win 29200, options [mss 1424,sackOK,TS val 705020926 ecr 0,nop,wscale 7], length 0
+21:59:00.257714 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [S.], seq 218337577, ack 716296191, win 65160, options [mss 1460,sackOK,TS val 2009336284 ecr 705020926,nop,wscale 7], length 0
+21:59:00.313601 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 705020982 ecr 2009336284], length 0
+21:59:00.318123 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 1:23, ack 1, win 229, options [nop,nop,TS val 705020987 ecr 2009336284], length 22
+21:59:00.318172 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 23, win 509, options [nop,nop,TS val 2009336345 ecr 705020987], length 0
+21:59:00.323825 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [P.], seq 1:42, ack 23, win 509, options [nop,nop,TS val 2009336351 ecr 705020987], length 41
+21:59:00.379114 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 705021048 ecr 2009336351], length 0
+21:59:00.379196 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [P.], seq 42:1098, ack 23, win 509, options [nop,nop,TS val 2009336406 ecr 705021048], length 1056
+21:59:00.380139 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 23:999, ack 42, win 229, options [nop,nop,TS val 705021049 ecr 2009336351], length 976
+21:59:00.380189 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 999, win 502, options [nop,nop,TS val 2009336407 ecr 705021049], length 0
+21:59:00.441213 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 999:1047, ack 1098, win 245, options [nop,nop,TS val 705021110 ecr 2009336406], length 48
+21:59:00.441287 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2009336468 ecr 705021110], length 0
+21:59:00.449776 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [P.], seq 1098:1534, ack 1047, win 502, options [nop,nop,TS val 2009336476 ecr 705021110], length 436
+21:59:00.508587 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 1047:1063, ack 1534, win 262, options [nop,nop,TS val 705021177 ecr 2009336476], length 16
+21:59:00.508656 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2009336535 ecr 705021177], length 0
+21:59:00.563922 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 1063:1115, ack 1534, win 262, options [nop,nop,TS val 705021232 ecr 2009336535], length 52
+21:59:00.563966 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2009336591 ecr 705021232], length 0
+21:59:00.564068 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [P.], seq 1534:1586, ack 1115, win 502, options [nop,nop,TS val 2009336591 ecr 705021232], length 52
+21:59:00.622517 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 1115:1199, ack 1586, win 262, options [nop,nop,TS val 705021291 ecr 2009336591], length 84
+21:59:00.665884 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2009336693 ecr 705021291], length 0
+21:59:01.421657 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.58274 > comp3134Winter2023.4578: Flags [S], seq 3230234224, win 29200, options [mss 1460,sackOK,TS val 3283037540 ecr 0,nop,wscale 7], length 0
+21:59:02.422981 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.58274 > comp3134Winter2023.4578: Flags [S], seq 3230234224, win 29200, options [mss 1460,sackOK,TS val 3283038542 ecr 0,nop,wscale 7], length 0
+21:59:03.391390 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2009339418 ecr 705021291], length 52
+21:59:03.446899 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [P.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 705024115 ecr 2009339418], length 52
+21:59:03.446899 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [F.], seq 1251, ack 1638, win 262, options [nop,nop,TS val 705024115 ecr 2009339418], length 0
+21:59:03.446956 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [.], ack 1251, win 502, options [nop,nop,TS val 2009339474 ecr 705024115], length 0
+21:59:03.448596 IP comp3134Winter2023.ssh > 43.153.12.31.32940: Flags [F.], seq 1638, ack 1252, win 502, options [nop,nop,TS val 2009339475 ecr 705024115], length 0
+21:59:03.503942 IP 43.153.12.31.32940 > comp3134Winter2023.ssh: Flags [.], ack 1639, win 262, options [nop,nop,TS val 705024172 ecr 2009339475], length 0
+21:59:05.428672 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59168 > comp3134Winter2023.4578: Flags [S], seq 1773751191, win 29200, options [mss 1460,sackOK,TS val 3283041543 ecr 0,nop,wscale 7], length 0
+21:59:06.429261 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59168 > comp3134Winter2023.4578: Flags [S], seq 1773751191, win 29200, options [mss 1460,sackOK,TS val 3283042544 ecr 0,nop,wscale 7], length 0
+21:59:09.429729 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59894 > comp3134Winter2023.4578: Flags [S], seq 3374610178, win 29200, options [mss 1460,sackOK,TS val 3283045544 ecr 0,nop,wscale 7], length 0
+21:59:09.440639 IP hosting-by.4cloud.mobi.41333 > comp3134Winter2023.36389: Flags [S], seq 2354270534, win 1024, length 0
+21:59:09.679697 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:59:10.431034 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59894 > comp3134Winter2023.4578: Flags [S], seq 3374610178, win 29200, options [mss 1460,sackOK,TS val 3283046546 ecr 0,nop,wscale 7], length 0
+21:59:13.432500 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.60750 > comp3134Winter2023.4578: Flags [S], seq 3541555035, win 29200, options [mss 1460,sackOK,TS val 3283049546 ecr 0,nop,wscale 7], length 0
+21:59:14.430776 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.60750 > comp3134Winter2023.4578: Flags [S], seq 3541555035, win 29200, options [mss 1460,sackOK,TS val 3283050548 ecr 0,nop,wscale 7], length 0
+21:59:16.061890 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [P.], seq 1:1098, ack 16, win 509, options [nop,nop,TS val 148444097 ecr 16347384], length 1097
+21:59:17.432061 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33288 > comp3134Winter2023.4578: Flags [S], seq 2955319228, win 29200, options [mss 1460,sackOK,TS val 3283053549 ecr 0,nop,wscale 7], length 0
+21:59:18.435025 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33288 > comp3134Winter2023.4578: Flags [S], seq 2955319228, win 29200, options [mss 1460,sackOK,TS val 3283054552 ecr 0,nop,wscale 7], length 0
+21:59:20.648515 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:59:21.440445 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34020 > comp3134Winter2023.4578: Flags [S], seq 2530947170, win 29200, options [mss 1460,sackOK,TS val 3283057552 ecr 0,nop,wscale 7], length 0
+21:59:21.518440 IP zg-1220e-52.stretchoid.com.36844 > comp3134Winter2023.1414: Flags [S], seq 3065736770, win 65535, length 0
+21:59:22.439175 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34020 > comp3134Winter2023.4578: Flags [S], seq 2530947170, win 29200, options [mss 1460,sackOK,TS val 3283058554 ecr 0,nop,wscale 7], length 0
+21:59:25.434575 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34786 > comp3134Winter2023.4578: Flags [S], seq 1426966363, win 29200, options [mss 1460,sackOK,TS val 3283061553 ecr 0,nop,wscale 7], length 0
+21:59:26.437137 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34786 > comp3134Winter2023.4578: Flags [S], seq 1426966363, win 29200, options [mss 1460,sackOK,TS val 3283062556 ecr 0,nop,wscale 7], length 0
+21:59:29.438103 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.35654 > comp3134Winter2023.4578: Flags [S], seq 3068949336, win 29200, options [mss 1460,sackOK,TS val 3283065555 ecr 0,nop,wscale 7], length 0
+21:59:30.438622 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.35654 > comp3134Winter2023.4578: Flags [S], seq 3068949336, win 29200, options [mss 1460,sackOK,TS val 3283066556 ecr 0,nop,wscale 7], length 0
+21:59:31.586479 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:59:31.586479 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+21:59:33.441097 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.36412 > comp3134Winter2023.4578: Flags [S], seq 457368312, win 29200, options [mss 1460,sackOK,TS val 3283069557 ecr 0,nop,wscale 7], length 0
+21:59:34.442844 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.36412 > comp3134Winter2023.4578: Flags [S], seq 457368312, win 29200, options [mss 1460,sackOK,TS val 3283070560 ecr 0,nop,wscale 7], length 0
+21:59:34.548423 IP ip217.ip-51-89-255.eu.51832 > comp3134Winter2023.25380: Flags [S], seq 2425870664, win 1024, length 0
+21:59:37.441026 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37182 > comp3134Winter2023.4578: Flags [S], seq 4235128620, win 29200, options [mss 1460,sackOK,TS val 3283073560 ecr 0,nop,wscale 7], length 0
+21:59:38.442984 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37182 > comp3134Winter2023.4578: Flags [S], seq 4235128620, win 29200, options [mss 1460,sackOK,TS val 3283074562 ecr 0,nop,wscale 7], length 0
+21:59:41.442533 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37924 > comp3134Winter2023.4578: Flags [S], seq 3422412430, win 29200, options [mss 1460,sackOK,TS val 3283077561 ecr 0,nop,wscale 7], length 0
+21:59:42.308740 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:59:42.445209 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37924 > comp3134Winter2023.4578: Flags [S], seq 3422412430, win 29200, options [mss 1460,sackOK,TS val 3283078564 ecr 0,nop,wscale 7], length 0
+21:59:45.446382 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.38754 > comp3134Winter2023.4578: Flags [S], seq 2617724196, win 29200, options [mss 1460,sackOK,TS val 3283081563 ecr 0,nop,wscale 7], length 0
+21:59:46.446732 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.38754 > comp3134Winter2023.4578: Flags [S], seq 2617724196, win 29200, options [mss 1460,sackOK,TS val 3283082564 ecr 0,nop,wscale 7], length 0
+21:59:49.446801 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.39458 > comp3134Winter2023.4578: Flags [S], seq 2023567633, win 29200, options [mss 1460,sackOK,TS val 3283085565 ecr 0,nop,wscale 7], length 0
+21:59:49.657303 IP comp3134Winter2023.ssh > 49.88.112.118.37039: Flags [F.], seq 1098, ack 16, win 509, options [nop,nop,TS val 148477692 ecr 16347384], length 0
+21:59:50.449045 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.39458 > comp3134Winter2023.4578: Flags [S], seq 2023567633, win 29200, options [mss 1460,sackOK,TS val 3283086568 ecr 0,nop,wscale 7], length 0
+21:59:53.338886 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+21:59:53.452883 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40198 > comp3134Winter2023.4578: Flags [S], seq 2052360391, win 29200, options [mss 1460,sackOK,TS val 3283089568 ecr 0,nop,wscale 7], length 0
+21:59:54.455724 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40198 > comp3134Winter2023.4578: Flags [S], seq 2052360391, win 29200, options [mss 1460,sackOK,TS val 3283090570 ecr 0,nop,wscale 7], length 0
+21:59:54.717877 ARP, Request who-has _gateway tell comp3134Winter2023, length 28
+21:59:54.722065 ARP, Reply _gateway is-at fe:00:00:00:01:01 (oui Unknown), length 46
+21:59:57.454535 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41008 > comp3134Winter2023.4578: Flags [S], seq 3437615340, win 29200, options [mss 1460,sackOK,TS val 3283093569 ecr 0,nop,wscale 7], length 0
+21:59:58.456859 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41008 > comp3134Winter2023.4578: Flags [S], seq 3437615340, win 29200, options [mss 1460,sackOK,TS val 3283094572 ecr 0,nop,wscale 7], length 0
+22:00:01.453863 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41800 > comp3134Winter2023.4578: Flags [S], seq 1605023109, win 29200, options [mss 1460,sackOK,TS val 3283097571 ecr 0,nop,wscale 7], length 0
+22:00:02.453115 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41800 > comp3134Winter2023.4578: Flags [S], seq 1605023109, win 29200, options [mss 1460,sackOK,TS val 3283098572 ecr 0,nop,wscale 7], length 0
+22:00:04.328865 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:00:04.328866 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:00:06.457750 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.42704 > comp3134Winter2023.4578: Flags [S], seq 4218012364, win 29200, options [mss 1460,sackOK,TS val 3283102576 ecr 0,nop,wscale 7], length 0
+22:00:09.110977 IP 64.112.72.94.46936 > comp3134Winter2023.telnet: Flags [S], seq 1590301854, win 65535, length 0
+22:00:09.460821 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43422 > comp3134Winter2023.4578: Flags [S], seq 3446713063, win 29200, options [mss 1460,sackOK,TS val 3283105575 ecr 0,nop,wscale 7], length 0
+22:00:10.462881 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43422 > comp3134Winter2023.4578: Flags [S], seq 3446713063, win 29200, options [mss 1460,sackOK,TS val 3283106578 ecr 0,nop,wscale 7], length 0
+22:00:13.459194 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44246 > comp3134Winter2023.4578: Flags [S], seq 1126254549, win 29200, options [mss 1460,sackOK,TS val 3283109577 ecr 0,nop,wscale 7], length 0
+22:00:14.461262 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44246 > comp3134Winter2023.4578: Flags [S], seq 1126254549, win 29200, options [mss 1460,sackOK,TS val 3283110580 ecr 0,nop,wscale 7], length 0
+22:00:15.034880 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:00:17.460739 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44960 > comp3134Winter2023.4578: Flags [S], seq 3325409076, win 29200, options [mss 1460,sackOK,TS val 3283113579 ecr 0,nop,wscale 7], length 0
+22:00:18.461105 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44960 > comp3134Winter2023.4578: Flags [S], seq 3325409076, win 29200, options [mss 1460,sackOK,TS val 3283114580 ecr 0,nop,wscale 7], length 0
+22:00:21.465075 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.45686 > comp3134Winter2023.4578: Flags [S], seq 3694278215, win 29200, options [mss 1460,sackOK,TS val 3283117582 ecr 0,nop,wscale 7], length 0
+22:00:22.467070 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.45686 > comp3134Winter2023.4578: Flags [S], seq 3694278215, win 29200, options [mss 1460,sackOK,TS val 3283118584 ecr 0,nop,wscale 7], length 0
+22:00:25.469092 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46420 > comp3134Winter2023.4578: Flags [S], seq 3916285587, win 29200, options [mss 1460,sackOK,TS val 3283121583 ecr 0,nop,wscale 7], length 0
+22:00:26.063631 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:00:26.288731 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [S], seq 3071670008, win 29200, options [mss 1424,sackOK,TS val 705106955 ecr 0,nop,wscale 7], length 0
+22:00:26.288807 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [S.], seq 2690876478, ack 3071670009, win 65160, options [mss 1460,sackOK,TS val 2009422316 ecr 705106955,nop,wscale 7], length 0
+22:00:26.346894 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 705107013 ecr 2009422316], length 0
+22:00:26.347595 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 1:23, ack 1, win 229, options [nop,nop,TS val 705107014 ecr 2009422316], length 22
+22:00:26.347636 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 23, win 509, options [nop,nop,TS val 2009422374 ecr 705107014], length 0
+22:00:26.358194 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [P.], seq 1:42, ack 23, win 509, options [nop,nop,TS val 2009422385 ecr 705107014], length 41
+22:00:26.416315 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 705107082 ecr 2009422385], length 0
+22:00:26.416374 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [P.], seq 42:1098, ack 23, win 509, options [nop,nop,TS val 2009422443 ecr 705107082], length 1056
+22:00:26.419599 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 23:999, ack 42, win 229, options [nop,nop,TS val 705107086 ecr 2009422385], length 976
+22:00:26.419667 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 999, win 502, options [nop,nop,TS val 2009422446 ecr 705107086], length 0
+22:00:26.469338 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46420 > comp3134Winter2023.4578: Flags [S], seq 3916285587, win 29200, options [mss 1460,sackOK,TS val 3283122584 ecr 0,nop,wscale 7], length 0
+22:00:26.477621 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 999:1047, ack 1098, win 245, options [nop,nop,TS val 705107144 ecr 2009422443], length 48
+22:00:26.477679 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2009422504 ecr 705107144], length 0
+22:00:26.485415 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [P.], seq 1098:1534, ack 1047, win 502, options [nop,nop,TS val 2009422512 ecr 705107144], length 436
+22:00:26.543363 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 1047:1063, ack 1534, win 262, options [nop,nop,TS val 705107210 ecr 2009422512], length 16
+22:00:26.543432 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2009422570 ecr 705107210], length 0
+22:00:26.600784 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 1063:1115, ack 1534, win 262, options [nop,nop,TS val 705107267 ecr 2009422570], length 52
+22:00:26.600849 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2009422628 ecr 705107267], length 0
+22:00:26.600982 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [P.], seq 1534:1586, ack 1115, win 502, options [nop,nop,TS val 2009422628 ecr 705107267], length 52
+22:00:26.662153 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 1115:1199, ack 1586, win 262, options [nop,nop,TS val 705107329 ecr 2009422628], length 84
+22:00:26.662204 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2009422689 ecr 705107329], length 0
+22:00:29.431083 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [P.], seq 1586:1638, ack 1199, win 502, options [nop,nop,TS val 2009425458 ecr 705107329], length 52
+22:00:29.466665 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47214 > comp3134Winter2023.4578: Flags [S], seq 3883185568, win 29200, options [mss 1460,sackOK,TS val 3283125585 ecr 0,nop,wscale 7], length 0
+22:00:29.490112 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [P.], seq 1199:1251, ack 1638, win 262, options [nop,nop,TS val 705110157 ecr 2009425458], length 52
+22:00:29.490112 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [F.], seq 1251, ack 1638, win 262, options [nop,nop,TS val 705110157 ecr 2009425458], length 0
+22:00:29.490174 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [.], ack 1251, win 502, options [nop,nop,TS val 2009425517 ecr 705110157], length 0
+22:00:29.491541 IP comp3134Winter2023.ssh > 43.153.12.31.34040: Flags [F.], seq 1638, ack 1252, win 502, options [nop,nop,TS val 2009425518 ecr 705110157], length 0
+22:00:29.548852 IP 43.153.12.31.34040 > comp3134Winter2023.ssh: Flags [.], ack 1639, win 262, options [nop,nop,TS val 705110215 ecr 2009425518], length 0
+22:00:30.469199 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47214 > comp3134Winter2023.4578: Flags [S], seq 3883185568, win 29200, options [mss 1460,sackOK,TS val 3283126588 ecr 0,nop,wscale 7], length 0
+22:00:33.470398 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47934 > comp3134Winter2023.4578: Flags [S], seq 2035915635, win 29200, options [mss 1460,sackOK,TS val 3283129587 ecr 0,nop,wscale 7], length 0
+22:00:34.470684 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47934 > comp3134Winter2023.4578: Flags [S], seq 2035915635, win 29200, options [mss 1460,sackOK,TS val 3283130588 ecr 0,nop,wscale 7], length 0
+22:00:37.470945 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48672 > comp3134Winter2023.4578: Flags [S], seq 2128116306, win 29200, options [mss 1460,sackOK,TS val 3283133589 ecr 0,nop,wscale 7], length 0
+22:00:37.620677 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:00:37.620677 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:00:38.348013 IP 5.188.87.5.48328 > comp3134Winter2023.2514: Flags [S], seq 1369122641, win 1024, length 0
+22:00:38.474629 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48672 > comp3134Winter2023.4578: Flags [S], seq 2128116306, win 29200, options [mss 1460,sackOK,TS val 3283134592 ecr 0,nop,wscale 7], length 0
+22:00:40.706067 IP 80.66.77.236.58445 > comp3134Winter2023.34567: Flags [S], seq 1235334171, win 65535, length 0
+22:00:41.476461 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49388 > comp3134Winter2023.4578: Flags [S], seq 1801288808, win 29200, options [mss 1460,sackOK,TS val 3283137591 ecr 0,nop,wscale 7], length 0
+22:00:42.476830 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49388 > comp3134Winter2023.4578: Flags [S], seq 1801288808, win 29200, options [mss 1460,sackOK,TS val 3283138592 ecr 0,nop,wscale 7], length 0
+22:00:45.475194 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50190 > comp3134Winter2023.4578: Flags [S], seq 1197203263, win 29200, options [mss 1460,sackOK,TS val 3283141593 ecr 0,nop,wscale 7], length 0
+22:00:46.478183 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50190 > comp3134Winter2023.4578: Flags [S], seq 1197203263, win 29200, options [mss 1460,sackOK,TS val 3283142596 ecr 0,nop,wscale 7], length 0
+22:00:46.489888 IP zg-1220i-165.stretchoid.com.58669 > comp3134Winter2023.18480: Flags [S], seq 2912639344, win 65535, length 0
+22:00:47.915419 IP ec2-140-179-224-176.cn-north-1.compute.amazonaws.com.cn > comp3134Winter2023: ICMP echo request, id 18, seq 6350, length 64
+22:00:47.915466 IP comp3134Winter2023 > ec2-140-179-224-176.cn-north-1.compute.amazonaws.com.cn: ICMP echo reply, id 18, seq 6350, length 64
+22:00:48.393913 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:00:49.198066 IP 62.8.79.2.wananchi.com.60000 > comp3134Winter2023.ssh: Flags [S], seq 3615014086, win 1024, length 0
+22:00:49.198140 IP comp3134Winter2023.ssh > 62.8.79.2.wananchi.com.60000: Flags [S.], seq 3996911201, ack 3615014087, win 64240, options [mss 1460], length 0
+22:00:49.476731 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50902 > comp3134Winter2023.4578: Flags [S], seq 3406222652, win 29200, options [mss 1460,sackOK,TS val 3283145595 ecr 0,nop,wscale 7], length 0
+22:00:49.498614 IP 62.8.79.2.wananchi.com.60000 > comp3134Winter2023.ssh: Flags [R], seq 3615014087, win 0, length 0
+22:00:49.517777 IP 62.8.79.2.wananchi.com.60000 > comp3134Winter2023.ssh: Flags [.], ack 1, win 600, length 0
+22:00:49.517841 IP comp3134Winter2023.ssh > 62.8.79.2.wananchi.com.60000: Flags [R], seq 3996911202, win 0, length 0
+22:00:50.477060 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50902 > comp3134Winter2023.4578: Flags [S], seq 3406222652, win 29200, options [mss 1460,sackOK,TS val 3283146596 ecr 0,nop,wscale 7], length 0
+22:00:53.124078 IP zg-1220e-29.stretchoid.com.33728 > comp3134Winter2023.5351: UDP, length 4
+22:00:53.479961 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.51642 > comp3134Winter2023.4578: Flags [S], seq 734525732, win 29200, options [mss 1460,sackOK,TS val 3283149597 ecr 0,nop,wscale 7], length 0
+22:00:54.481082 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.51642 > comp3134Winter2023.4578: Flags [S], seq 734525732, win 29200, options [mss 1460,sackOK,TS val 3283150600 ecr 0,nop,wscale 7], length 0
+22:00:56.952023 IP 218-173-81-120.dynamic-ip.hinet.net.4727 > comp3134Winter2023.ssh: Flags [S], seq 2478217262, win 13947, length 0
+22:00:56.952087 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.4727: Flags [S.], seq 2379819854, ack 2478217263, win 64240, options [mss 1460], length 0
+22:00:57.160360 IP 218-173-81-120.dynamic-ip.hinet.net.4727 > comp3134Winter2023.ssh: Flags [R], seq 2478217263, win 0, length 0
+22:00:57.170557 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [S], seq 815090828, win 14520, options [mss 1412,nop,nop,sackOK,nop,wscale 1], length 0
+22:00:57.170617 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [S.], seq 3246825480, ack 815090829, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+22:00:57.372080 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 1, win 7260, length 0
+22:00:57.382745 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [P.], seq 1:42, ack 1, win 502, length 41
+22:00:57.484959 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.52446 > comp3134Winter2023.4578: Flags [S], seq 2782652177, win 29200, options [mss 1460,sackOK,TS val 3283153600 ecr 0,nop,wscale 7], length 0
+22:00:57.585240 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 42, win 7260, length 0
+22:00:58.413330 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [P.], seq 1:42, ack 42, win 7260, length 41
+22:00:58.413389 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [.], ack 42, win 502, length 0
+22:00:58.414907 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [P.], seq 42:1098, ack 42, win 502, length 1056
+22:00:58.487018 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.52446 > comp3134Winter2023.4578: Flags [S], seq 2782652177, win 29200, options [mss 1460,sackOK,TS val 3283154602 ecr 0,nop,wscale 7], length 0
+22:00:58.616584 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [P.], seq 42:386, ack 42, win 7260, length 344
+22:00:58.616643 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [.], ack 386, win 501, length 0
+22:00:58.617780 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 1098, win 8316, length 0
+22:00:58.817793 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [P.], seq 386:658, ack 1098, win 8316, length 272
+22:00:58.817844 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [.], ack 658, win 501, length 0
+22:00:58.830587 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [P.], seq 1098:2202, ack 658, win 501, length 1104
+22:00:59.032363 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 2202, win 9420, length 0
+22:00:59.375515 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:00:59.607151 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [P.], seq 658:674, ack 2202, win 9420, length 16
+22:00:59.607212 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [.], ack 674, win 501, length 0
+22:00:59.808353 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [P.], seq 674:726, ack 2202, win 9420, length 52
+22:00:59.808404 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [.], ack 726, win 501, length 0
+22:00:59.808604 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [P.], seq 2202:2254, ack 726, win 501, length 52
+22:01:00.011836 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 2254, win 9420, length 0
+22:01:00.011836 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [P.], seq 726:810, ack 2254, win 9420, length 84
+22:01:00.053891 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [.], ack 810, win 501, length 0
+22:01:01.482678 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.53200 > comp3134Winter2023.4578: Flags [S], seq 3841884651, win 29200, options [mss 1460,sackOK,TS val 3283157601 ecr 0,nop,wscale 7], length 0
+22:01:02.484894 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.53200 > comp3134Winter2023.4578: Flags [S], seq 3841884651, win 29200, options [mss 1460,sackOK,TS val 3283158604 ecr 0,nop,wscale 7], length 0
+22:01:02.670490 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [P.], seq 2254:2322, ack 810, win 501, length 68
+22:01:02.907195 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 2322, win 9420, length 0
+22:01:03.033401 IP 185.156.73.57.42458 > comp3134Winter2023.36794: Flags [S], seq 1242827606, win 1024, length 0
+22:01:03.127260 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [F.], seq 810, ack 2322, win 9420, length 0
+22:01:03.130912 IP comp3134Winter2023.ssh > 218-173-81-120.dynamic-ip.hinet.net.50684: Flags [F.], seq 2322, ack 811, win 501, length 0
+22:01:03.340176 IP 218-173-81-120.dynamic-ip.hinet.net.50684 > comp3134Winter2023.ssh: Flags [.], ack 2323, win 9420, length 0
+22:01:05.484708 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.54014 > comp3134Winter2023.4578: Flags [S], seq 3563869966, win 29200, options [mss 1460,sackOK,TS val 3283161603 ecr 0,nop,wscale 7], length 0
+22:01:06.485197 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.54014 > comp3134Winter2023.4578: Flags [S], seq 3563869966, win 29200, options [mss 1460,sackOK,TS val 3283162604 ecr 0,nop,wscale 7], length 0
+22:01:07.105299 IP 180.108.86.29.28058 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 18874, length 0
+22:01:09.488379 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.54734 > comp3134Winter2023.4578: Flags [S], seq 941193453, win 29200, options [mss 1460,sackOK,TS val 3283165605 ecr 0,nop,wscale 7], length 0
+22:01:10.339311 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:01:10.339312 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:01:10.490912 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.54734 > comp3134Winter2023.4578: Flags [S], seq 941193453, win 29200, options [mss 1460,sackOK,TS val 3283166608 ecr 0,nop,wscale 7], length 0
+22:01:13.490255 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.55542 > comp3134Winter2023.4578: Flags [S], seq 525501757, win 29200, options [mss 1460,sackOK,TS val 3283169607 ecr 0,nop,wscale 7], length 0
+22:01:14.490934 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.55542 > comp3134Winter2023.4578: Flags [S], seq 525501757, win 29200, options [mss 1460,sackOK,TS val 3283170608 ecr 0,nop,wscale 7], length 0
+22:01:17.491053 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.56252 > comp3134Winter2023.4578: Flags [S], seq 2213389558, win 29200, options [mss 1460,sackOK,TS val 3283173610 ecr 0,nop,wscale 7], length 0
+22:01:18.493244 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.56252 > comp3134Winter2023.4578: Flags [S], seq 2213389558, win 29200, options [mss 1460,sackOK,TS val 3283174612 ecr 0,nop,wscale 7], length 0
+22:01:21.072521 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:01:21.461407 IP undefined.hostname.localhost.50035 > comp3134Winter2023.5550: Flags [S], seq 1452782918, win 1024, length 0
+22:01:21.493193 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.56996 > comp3134Winter2023.4578: Flags [S], seq 3882346088, win 29200, options [mss 1460,sackOK,TS val 3283177612 ecr 0,nop,wscale 7], length 0
+22:01:22.495337 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.56996 > comp3134Winter2023.4578: Flags [S], seq 3882346088, win 29200, options [mss 1460,sackOK,TS val 3283178614 ecr 0,nop,wscale 7], length 0
+22:01:25.500642 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.57714 > comp3134Winter2023.4578: Flags [S], seq 3208033107, win 29200, options [mss 1460,sackOK,TS val 3283181613 ecr 0,nop,wscale 7], length 0
+22:01:26.502780 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.57714 > comp3134Winter2023.4578: Flags [S], seq 3208033107, win 29200, options [mss 1460,sackOK,TS val 3283182616 ecr 0,nop,wscale 7], length 0
+22:01:29.496640 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.58514 > comp3134Winter2023.4578: Flags [S], seq 1674526825, win 29200, options [mss 1460,sackOK,TS val 3283185615 ecr 0,nop,wscale 7], length 0
+22:01:30.497089 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.58514 > comp3134Winter2023.4578: Flags [S], seq 1674526825, win 29200, options [mss 1460,sackOK,TS val 3283186616 ecr 0,nop,wscale 7], length 0
+22:01:32.151162 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:01:33.501148 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59246 > comp3134Winter2023.4578: Flags [S], seq 1406893826, win 29200, options [mss 1460,sackOK,TS val 3283189617 ecr 0,nop,wscale 7], length 0
+22:01:34.503957 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59246 > comp3134Winter2023.4578: Flags [S], seq 1406893826, win 29200, options [mss 1460,sackOK,TS val 3283190620 ecr 0,nop,wscale 7], length 0
+22:01:37.500840 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59962 > comp3134Winter2023.4578: Flags [S], seq 2692285820, win 29200, options [mss 1460,sackOK,TS val 3283193619 ecr 0,nop,wscale 7], length 0
+22:01:38.501108 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.59962 > comp3134Winter2023.4578: Flags [S], seq 2692285820, win 29200, options [mss 1460,sackOK,TS val 3283194620 ecr 0,nop,wscale 7], length 0
+22:01:41.502750 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.60684 > comp3134Winter2023.4578: Flags [S], seq 1092794679, win 29200, options [mss 1460,sackOK,TS val 3283197621 ecr 0,nop,wscale 7], length 0
+22:01:42.504949 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.60684 > comp3134Winter2023.4578: Flags [S], seq 1092794679, win 29200, options [mss 1460,sackOK,TS val 3283198624 ecr 0,nop,wscale 7], length 0
+22:01:43.138575 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:01:43.138576 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:01:45.495398 IP 175.203.201.55.7916 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 10460, length 0
+22:01:45.508448 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33274 > comp3134Winter2023.4578: Flags [S], seq 2815954314, win 29200, options [mss 1460,sackOK,TS val 3283201623 ecr 0,nop,wscale 7], length 0
+22:01:46.505813 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33274 > comp3134Winter2023.4578: Flags [S], seq 2815954314, win 29200, options [mss 1460,sackOK,TS val 3283202624 ecr 0,nop,wscale 7], length 0
+22:01:49.506251 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33992 > comp3134Winter2023.4578: Flags [S], seq 4285581888, win 29200, options [mss 1460,sackOK,TS val 3283205625 ecr 0,nop,wscale 7], length 0
+22:01:50.509026 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.33992 > comp3134Winter2023.4578: Flags [S], seq 4285581888, win 29200, options [mss 1460,sackOK,TS val 3283206628 ecr 0,nop,wscale 7], length 0
+22:01:52.609258 IP zg-1220g-32.stretchoid.com.45897 > comp3134Winter2023.771: Flags [S], seq 3845084053, win 65535, length 0
+22:01:53.510169 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34716 > comp3134Winter2023.4578: Flags [S], seq 1796619160, win 29200, options [mss 1460,sackOK,TS val 3283209627 ecr 0,nop,wscale 7], length 0
+22:01:53.850944 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:01:54.510671 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.34716 > comp3134Winter2023.4578: Flags [S], seq 1796619160, win 29200, options [mss 1460,sackOK,TS val 3283210628 ecr 0,nop,wscale 7], length 0
+22:01:56.708008 IP 43.153.12.31.35146 > comp3134Winter2023.ssh: Flags [S], seq 45327183, win 29200, options [mss 1424,sackOK,TS val 705197377 ecr 0,nop,wscale 7], length 0
+22:01:56.708262 IP comp3134Winter2023 > 43.153.12.31: ICMP comp3134Winter2023 tcp port ssh unreachable, length 68
+22:01:57.511225 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.35524 > comp3134Winter2023.4578: Flags [S], seq 784940386, win 29200, options [mss 1460,sackOK,TS val 3283213630 ecr 0,nop,wscale 7], length 0
+22:01:58.190030 IP 45.143.200.102.56796 > comp3134Winter2023.16820: Flags [S], seq 2443884083, win 1024, length 0
+22:01:58.512991 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.35524 > comp3134Winter2023.4578: Flags [S], seq 784940386, win 29200, options [mss 1460,sackOK,TS val 3283214632 ecr 0,nop,wscale 7], length 0
+22:02:01.518209 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.36312 > comp3134Winter2023.4578: Flags [S], seq 846429664, win 29200, options [mss 1460,sackOK,TS val 3283217631 ecr 0,nop,wscale 7], length 0
+22:02:01.949883 ARP, Request who-has _gateway tell comp3134Winter2023, length 28
+22:02:01.951389 ARP, Reply _gateway is-at fe:00:00:00:01:01 (oui Unknown), length 46
+22:02:02.518487 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.36312 > comp3134Winter2023.4578: Flags [S], seq 846429664, win 29200, options [mss 1460,sackOK,TS val 3283218632 ecr 0,nop,wscale 7], length 0
+22:02:04.888925 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:02:05.514325 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37112 > comp3134Winter2023.4578: Flags [S], seq 91414858, win 29200, options [mss 1460,sackOK,TS val 3283221633 ecr 0,nop,wscale 7], length 0
+22:02:06.518111 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37112 > comp3134Winter2023.4578: Flags [S], seq 91414858, win 29200, options [mss 1460,sackOK,TS val 3283222637 ecr 0,nop,wscale 7], length 0
+22:02:09.517766 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37828 > comp3134Winter2023.4578: Flags [S], seq 3617899294, win 29200, options [mss 1460,sackOK,TS val 3283225636 ecr 0,nop,wscale 7], length 0
+22:02:10.520308 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.37828 > comp3134Winter2023.4578: Flags [S], seq 3617899294, win 29200, options [mss 1460,sackOK,TS val 3283226638 ecr 0,nop,wscale 7], length 0
+22:02:11.618913 IP recyber.net.53562 > comp3134Winter2023.37562: Flags [S], seq 1293806727, win 1024, length 0
+22:02:13.521700 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.38656 > comp3134Winter2023.4578: Flags [S], seq 904130887, win 29200, options [mss 1460,sackOK,TS val 3283229637 ecr 0,nop,wscale 7], length 0
+22:02:14.524267 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.38656 > comp3134Winter2023.4578: Flags [S], seq 904130887, win 29200, options [mss 1460,sackOK,TS val 3283230640 ecr 0,nop,wscale 7], length 0
+22:02:15.827078 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:02:15.827078 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:02:17.522213 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.39372 > comp3134Winter2023.4578: Flags [S], seq 1669881744, win 29200, options [mss 1460,sackOK,TS val 3283233639 ecr 0,nop,wscale 7], length 0
+c22:02:17.797970 IP 170.106.176.49.56455 > comp3134Winter2023.9029: Flags [S], seq 2050643986, win 65535, options [mss 1424,nop,wscale 8,nop,nop,sackOK], length 0
+22:02:18.522889 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.39372 > comp3134Winter2023.4578: Flags [S], seq 1669881744, win 29200, options [mss 1460,sackOK,TS val 3283234640 ecr 0,nop,wscale 7], length 0
+22:02:18.610006 IP 185.122.204.74.46057 > comp3134Winter2023.1594: Flags [S], seq 3138843487, win 1024, length 0
+22:02:21.524582 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40090 > comp3134Winter2023.4578: Flags [S], seq 3863758369, win 29200, options [mss 1460,sackOK,TS val 3283237642 ecr 0,nop,wscale 7], length 0
+22:02:22.526473 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40090 > comp3134Winter2023.4578: Flags [S], seq 3863758369, win 29200, options [mss 1460,sackOK,TS val 3283238644 ecr 0,nop,wscale 7], length 0
+22:02:23.138644 IP cpe-203-51-38-164.ab01.act.asp.telstra.net.5758 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 35301, options [mss 536], length 0
+22:02:25.524571 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40802 > comp3134Winter2023.4578: Flags [S], seq 1624737120, win 29200, options [mss 1460,sackOK,TS val 3283241643 ecr 0,nop,wscale 7], length 0
+22:02:26.525222 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.40802 > comp3134Winter2023.4578: Flags [S], seq 1624737120, win 29200, options [mss 1460,sackOK,TS val 3283242644 ecr 0,nop,wscale 7], length 0
+22:02:26.628744 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:02:29.528874 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41622 > comp3134Winter2023.4578: Flags [S], seq 4041386202, win 29200, options [mss 1460,sackOK,TS val 3283245646 ecr 0,nop,wscale 7], length 0
+22:02:30.530677 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.41622 > comp3134Winter2023.4578: Flags [S], seq 4041386202, win 29200, options [mss 1460,sackOK,TS val 3283246648 ecr 0,nop,wscale 7], length 0
+22:02:31.600937 IP 64.112.72.210.60570 > comp3134Winter2023.telnet: Flags [S], seq 2690560041, win 65535, length 0
+22:02:33.531978 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.42340 > comp3134Winter2023.4578: Flags [S], seq 856020675, win 29200, options [mss 1460,sackOK,TS val 3283249647 ecr 0,nop,wscale 7], length 0
+22:02:34.533580 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.42340 > comp3134Winter2023.4578: Flags [S], seq 856020675, win 29200, options [mss 1460,sackOK,TS val 3283250648 ecr 0,nop,wscale 7], length 0
+22:02:37.532657 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43056 > comp3134Winter2023.4578: Flags [S], seq 2100175869, win 29200, options [mss 1460,sackOK,TS val 3283253649 ecr 0,nop,wscale 7], length 0
+22:02:37.654364 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:02:37.934338 IP ip-58-142.4vendeta.com.41505 > comp3134Winter2023.6349: Flags [S], seq 588214130, win 1024, length 0
+22:02:38.534913 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43056 > comp3134Winter2023.4578: Flags [S], seq 2100175869, win 29200, options [mss 1460,sackOK,TS val 3283254652 ecr 0,nop,wscale 7], length 0
+22:02:41.538086 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43776 > comp3134Winter2023.4578: Flags [S], seq 1125857665, win 29200, options [mss 1460,sackOK,TS val 3283257651 ecr 0,nop,wscale 7], length 0
+22:02:42.538386 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.43776 > comp3134Winter2023.4578: Flags [S], seq 1125857665, win 29200, options [mss 1460,sackOK,TS val 3283258652 ecr 0,nop,wscale 7], length 0
+22:02:45.538396 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44604 > comp3134Winter2023.4578: Flags [S], seq 3175287963, win 29200, options [mss 1460,sackOK,TS val 3283261653 ecr 0,nop,wscale 7], length 0
+22:02:46.541241 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.44604 > comp3134Winter2023.4578: Flags [S], seq 3175287963, win 29200, options [mss 1460,sackOK,TS val 3283262656 ecr 0,nop,wscale 7], length 0
+22:02:48.591144 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:02:48.591144 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:02:49.541602 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.45320 > comp3134Winter2023.4578: Flags [S], seq 469584388, win 29200, options [mss 1460,sackOK,TS val 3283265656 ecr 0,nop,wscale 7], length 0
+22:02:49.906338 IP 176.111.174.95.49879 > comp3134Winter2023.8138: Flags [S], seq 1746689009, win 1024, length 0
+22:02:50.542685 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.45320 > comp3134Winter2023.4578: Flags [S], seq 469584388, win 29200, options [mss 1460,sackOK,TS val 3283266658 ecr 0,nop,wscale 7], length 0
+22:02:53.544293 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46032 > comp3134Winter2023.4578: Flags [S], seq 2217631083, win 29200, options [mss 1460,sackOK,TS val 3283269659 ecr 0,nop,wscale 7], length 0
+22:02:54.545208 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46032 > comp3134Winter2023.4578: Flags [S], seq 2217631083, win 29200, options [mss 1460,sackOK,TS val 3283270660 ecr 0,nop,wscale 7], length 0
+22:02:57.541512 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46862 > comp3134Winter2023.4578: Flags [S], seq 2199640603, win 29200, options [mss 1460,sackOK,TS val 3283273660 ecr 0,nop,wscale 7], length 0
+22:02:58.543224 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.46862 > comp3134Winter2023.4578: Flags [S], seq 2199640603, win 29200, options [mss 1460,sackOK,TS val 3283274662 ecr 0,nop,wscale 7], length 0
+22:02:59.337113 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:03:00.832830 IP recyber.net.52870 > comp3134Winter2023.9039: Flags [S], seq 3294029377, win 1024, length 0
+22:03:01.543369 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47630 > comp3134Winter2023.4578: Flags [S], seq 1655778426, win 29200, options [mss 1460,sackOK,TS val 3283277662 ecr 0,nop,wscale 7], length 0
+22:03:02.545953 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.47630 > comp3134Winter2023.4578: Flags [S], seq 1655778426, win 29200, options [mss 1460,sackOK,TS val 3283278665 ecr 0,nop,wscale 7], length 0
+22:03:03.426026 IP 220.78.2.130.33010 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 37602, length 0
+22:03:05.545372 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48424 > comp3134Winter2023.4578: Flags [S], seq 914347016, win 29200, options [mss 1460,sackOK,TS val 3283281664 ecr 0,nop,wscale 7], length 0
+22:03:05.743849 IP 220.78.2.130.33010 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 37602, length 0
+22:03:06.546966 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.48424 > comp3134Winter2023.4578: Flags [S], seq 914347016, win 29200, options [mss 1460,sackOK,TS val 3283282666 ecr 0,nop,wscale 7], length 0
+22:03:09.548937 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49160 > comp3134Winter2023.4578: Flags [S], seq 1226504988, win 29200, options [mss 1460,sackOK,TS val 3283285666 ecr 0,nop,wscale 7], length 0
+22:03:10.358225 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:03:10.550683 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49160 > comp3134Winter2023.4578: Flags [S], seq 1226504988, win 29200, options [mss 1460,sackOK,TS val 3283286668 ecr 0,nop,wscale 7], length 0
+22:03:10.658521 IP 220.78.2.130.33010 > comp3134Winter2023.telnet: Flags [S], seq 2478217262, win 37602, length 0
+22:03:13.552259 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49964 > comp3134Winter2023.4578: Flags [S], seq 284804475, win 29200, options [mss 1460,sackOK,TS val 3283289669 ecr 0,nop,wscale 7], length 0
+22:03:14.554868 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.49964 > comp3134Winter2023.4578: Flags [S], seq 284804475, win 29200, options [mss 1460,sackOK,TS val 3283290672 ecr 0,nop,wscale 7], length 0
+22:03:17.556042 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50688 > comp3134Winter2023.4578: Flags [S], seq 2932856088, win 29200, options [mss 1460,sackOK,TS val 3283293671 ecr 0,nop,wscale 7], length 0
+22:03:18.556791 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.50688 > comp3134Winter2023.4578: Flags [S], seq 2932856088, win 29200, options [mss 1460,sackOK,TS val 3283294672 ecr 0,nop,wscale 7], length 0
+22:03:19.512582 IP 176.111.174.83.49679 > comp3134Winter2023.7619: Flags [S], seq 580755136, win 1024, length 0
+22:03:21.312518 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 12
+22:03:21.312518 IP 80.251.215.25.16clouds.com.1682 > comp3134Winter2023.1680: UDP, length 127
+22:03:21.558384 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.51410 > comp3134Winter2023.4578: Flags [S], seq 1395796985, win 29200, options [mss 1460,sackOK,TS val 3283297673 ecr 0,nop,wscale 7], length 0
+22:03:22.560856 IP fr-p-l-mmi-bat-gra-p-002.mymarketinsight.com.51410 > comp3134Winter2023.4578: Flags [S], seq 1395796985, win 29200, options [mss 1460,sackOK,TS val 3283298676 ecr 0,nop,wscale 7], length 0
+22:03:23.937324 IP security.criminalip.com.34189 > comp3134Winter2023.40698: UDP, length 29
+22:03:24.234880 IP recyber.net.58129 > comp3134Winter2023.36256: Flags [S], seq 3793537045, win 1024, length 0
+^C22:03:25.167217 IP 121.173.109.145.17972 > comp3134Winter2023.ssh: Flags [S], seq 2478217262, win 51909, length 0
