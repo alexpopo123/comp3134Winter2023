@@ -1,0 +1,8 @@
+The issue with the stored XSS scenario described in the previous steps is that the user input,
+ in this case, the JavaScript code, is stored directly in a text file and then read and executed
+without being properly sanitized.This means that if an attacker manages to inject malicious code
+into the text file, the code will be executed when the file is read and displayed on the page. 
+This can lead to various types of attacks, including stealing user session cookies,
+stealing sensitive information, or even taking control of the user's browser. 
+Therefore, it is important to always sanitize user input before storing
+it and/or rendering it in the browser.

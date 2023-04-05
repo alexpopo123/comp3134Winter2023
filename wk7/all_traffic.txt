@@ -1,0 +1,1 @@
+echo "sudo tcpdump -i any -w all_traffic_20230405_1015"

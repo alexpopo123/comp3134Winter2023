@@ -1,0 +1,20 @@
+
+//form with 2 hidden fields
+//action = cafr.php
+//method = post
+//two hidden fields are going to have the values of username = host
+
+//research how to auto-submit the form using JavaScript
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Test</title>
+</head>
+<body>
+    <form method="post" action="csfr.php">
+        <input type="hidden" name="username" value="host">
+        <input type="hidden" name="password" value="">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

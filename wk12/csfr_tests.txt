@@ -1,0 +1,5 @@
+I notice that the $token variable in csfr_action.php is not properly set to the csrf_token field
+from the form data. Instead, it should be set to the confirmation
+field, which is the name of the hidden field that contains the CSRF token value.
+To fix this issue, replace $token = $_POST['csrf_token'];
+with $token = $_POST['confirmation']; in csfr_action.php
